@@ -1,0 +1,14 @@
+{
+    "name": "docker-angular-cli-ecs",
+    "version": "0.0.1",
+    "description": "Extending angular-cli image for aws ecs deployments",
+    "main": "",
+    "scripts": {
+      "docker:build": "docker build --tag=coodoogmbh/angular-cli-ecs .",
+      "docker:run": "docker run -it coodoogmbh/angular-cli-ecs"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:coodoo-io/docker-angular-cli-ecs.git"
+    }
+  }
